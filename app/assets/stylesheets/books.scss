@@ -1,0 +1,33 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+table {
+  td, th {
+    padding: 0.25rem 0.5rem;
+    line-height: 1.5;
+  }
+}
+
+
+form {
+  > * {
+    margin: 1rem 0;
+  }
+  .action {
+    input, textarea {
+      width: 100%;
+      max-width: 20rem;
+    }
+  }
+}
+
+.success {
+  font-weight: bold;
+  color: green;
+}
+
+.error {
+  color: crimson;
+  font-weight: bold;
+}
